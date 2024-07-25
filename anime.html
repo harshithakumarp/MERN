@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        div{
+            height:100px;
+            width: 100px;
+            background-color: rgb(8, 6, 6);
+            animation-name:anime;
+            animation-duration:5s;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+            position:relative;
+            top:20px;
+            left:20px;
+        }
+        @keyframes anime{
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; top:200px;}
+            75%  {background-color:green; left:0px; top:200px;}
+            100% {background-color:red; left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
